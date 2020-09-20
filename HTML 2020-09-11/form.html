@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+		<title>HTML form</title>
+		<meta charset="utf-8">
+		<!-- formos kurimas -->
+	</head>
+	<body>
+		<form method="post">
+			<h4>Duomenu informacija</h4>
+			<fieldset>
+			<label>El. pasto adresas:*</label>
+				<input type="email" required>
+		</fieldset>
+		<fieldset>
+			<label>Slaptazodis:*</label>
+				<input type="password" required>	
+		</fieldset>
+		<fieldset>
+			<label>Patvirtinti Slaptazodi:*</label>
+				<input type="password" required>
+		</fieldset>
+		<fieldset>
+				<input type="checkbox">
+				<label>Sutinku su salygomis</label>
+			</fieldset>
+			<h4>Pasitikrinkite saskaitos adresa</h4>
+			<fieldset>
+				<label>Lytis:*</label>
+				<select required>
+					<option value="">Moteris</option>
+					<option value="">Vyras</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Vardas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pavarde:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Gatve, namo(buto) nr.:*</label>
+				<input type="text" required>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pasto kodas:*</label>
+				<input type="text" required>
+				<label>Pasto kodo paieska</label>
+			</fieldset>
+			<fieldset>
+				<label>Miestas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Salis:*</label>
+				<select required>
+					<option selected disabled value="">-</option>
+					<option>Lietuva</option>
+					<option>Estija</option>
+					<option>Latvija</option>
+					<option>Lenkija</option>
+					<option>Vokietija</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Telefonas:*</label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Papildoma informacija:</label>
+				<textarea placeholder></textarea>
+			</fieldset>
+			<fieldset>
+				<button type="Submit">Registruotis</button>
+			</fieldset>		
+		</form>				
+	 </body>
+	</html>
